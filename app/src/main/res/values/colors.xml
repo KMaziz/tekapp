@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="newBlue">#138FF7</color>
+    <color name="latestBlue">#2F80ED</color>
+    <color name="colorPrimary">#86bbd8</color>
+    <color name="colorPrimaryDark">#138FF7</color>
+    <color name="colorAccent">#138FF7</color>
+    <color name="startColor">#86bbd8</color>
+    <color name="endColor">#336699</color>
+    <color name="colorSurface">#F3F9FE</color>
+    <color name="colorwhite">#ffffff</color>
+    <color name="shortTag">#FBFF61</color>
+    <color name="longTag">#FF6A6A</color>
+    <color name="etuTag">#6FFF6F</color>
+    <color name="ttpTag">#6AFFEC</color>
+    <color name="textcolor">#000</color>
+    <color name="fragmentbackground">#ffffff</color>
+    <color name="cardbackground">#ffffff</color>
+    <color name="arctext">#138FF7</color>
+    <color name="cardtext">#000</color>
+    <color name="statusBar">#138FF7</color>
+    <color name="bottomBoundary">#138FF7</color>
+    <color name="bottomNav">#138FF7</color>
+    <color name="bottomNavItem">#ffffff</color>
+    <color name="bottomNavInactive">#80ffffff</color>
+    <color name="blackToWhite">#000</color>
+    <color name="dialogColor">#84BFF1</color>
+    <color name="eighty_black">#80000000</color>
+    <color name="orange">#FFA45A</color>
+    <color name="pink">#AE445C</color>
+    <color name="gray">#888888</color>
+</resources>

@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">TekApp</string>
+    <string name="display">TEKAPP</string>
+    <string name="logo">Logo</string>
+    <string name="log_in">Login</string>
+    <string name="password">Password</string>
+    <string name="Preference">Preference</string>
+    <string name="rollno">Roll Number</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="welcome">Welcome</string>
+    <string name="title_activity_navigation">Navigation</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="nav_header_title">College Connect</string>
+    <string name="nav_header_desc">Navigation Header</string>
+    <string name="action_settings">Settings</string>
+    <string name="banner_ad_unit_id_test">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_ad_app_id_test">ca-app-pub-3940256099942544~3347511713</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_attendance">Attendance</string>
+    <string name="menu_notes">Notes</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_loc">Rooms</string>
+    <string name="menu_send">Logout</string>
+    <string name="email">Email</string>
+    <string name="collegename">College Name</string>
+    <string name="log_out">Log Out</string>
+    <string name="settings">Settings</string>
+    <string name="not_a_user_sign_up">New here? <b>Register</b></string>
+    <string name="welcome_message">WELCOME TO COLLEGE CONNECT</string>
+    <string name="Internet"><u>Unable to Access Internet!</u></string>
+    <string name="forgotpass"><u>Forgot Password?</u></string>
+
+    <string-array name="Semesters">
+        <item>"First Semester"</item>
+        <item>"Second Semester"</item>
+        <item>"Third Semester"</item>
+        <item>"Fourth Semester"</item>
+        <item>"Fifth Semester"</item>
+        <item>"Sixth Semester"</item>
+        <item>"Seventh Semester"</item>
+        <item>"Eighth Semester"</item>
+        <item>"Syllabus"</item>
+    </string-array>
+
+    <string-array name="Branch">
+        <item>"CSE"</item>
+        <item>"IT"</item>
+        <item>"ECE"</item>
+        <item>"EEE"</item>
+        <item>"ICE"</item>
+        <item>"Civil"</item>
+        <item>"MAE"</item>
+        <item>"Mechantronics"</item>
+    </string-array>
+
+    <string-array name="Course">
+        <item>"B.Tech"</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="etu_tag">Easy to understand</string>
+    =======
+    <string-array name="Unit">
+        <item>Unit 1</item>
+        <item>Unit 2</item>
+        <item>Unit 3</item>
+        <item>Unit 4</item>
+        <item>Lab</item>
+    </string-array>
+
+    <string-array name="options">
+        <item>Update My Profile</item>
+        <item>My Upload List</item>
+        <item>About</item>
+    </string-array>
+
+    <string-array name="themes">
+        <item>System Default</item>
+        <item>Dark</item>
+        <item>Light</item>
+    </string-array>
+
+    <string-array name="feedback">
+        <item>No</item>
+        <item>Little</item>
+        <item>Fairly</item>
+        <item>Yes</item>
+        <item>Great</item>
+    </string-array>
+    <string-array name="feedback1">
+        <item>Poor</item>
+        <item>Little</item>
+        <item>Fairly</item>
+        <item>Happy</item>
+        <item>Great</item>
+    </string-array>
+
+    <string name="title_activity_settings2">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+    <string name="contact_network"><u>Don\'t see your college?\n<b>Collaborate with us</b></u></string>
+    <string name="done">Done</string>
+    <string name="edit">Edit</string>
+    <string name="github">Github</string>
+</resources>

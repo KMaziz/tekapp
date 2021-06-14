@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.college.collegeconnect">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+
+    <application
+        android:allowBackup="true"
+        android:configChanges="uiMode"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/icon_round"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+
+
+        <meta-data
+            android:name="firebase_performance_logcat_enabled"
+            android:value="true" />
+
+        <activity
+            android:name=".ui.event.UpcomingEvents"
+            android:screenOrientation="portrait" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/path" />
+        </provider>
+
+
+
+        <activity
+            android:name=".settingsActivity.HomeEditActivity"
+            android:parentActivityName=".settingsActivity.HomeEditActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".settingsActivity.SettingsActivity"
+            android:parentActivityName=".settingsActivity.SettingsActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/banner_ad_app_id_test" />
+
+        <activity
+            android:name=".activities.StepTwoSignUp"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".activities.DownloadNotes"
+            android:label="DownloadNotes"
+            android:parentActivityName=".activities.DownloadNotes"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".timetable.TimeTable"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Time Table"
+            android:parentActivityName=".timetable.TimeTable"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".timetable.NewTimeTable"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Time Table"
+            android:parentActivityName=".timetable.NewTimeTable"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.Navigation"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".activities.SignUp"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:parentActivityName=".activities.SignUp"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name=".activities.MainActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- &lt;!&ndash; -<category android:Name="android.intent.category.LAUNCHER" /> &ndash;&gt; -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".timetable.BackgroundService" />
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default _notification_icon"
+            android:resource="@drawable/cc2" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/newBlue" />
+
+        <!--        <receiver-->
+        <!--            android:name=".timetable.AlertReceiver"-->
+        <!--            android:enabled="true"-->
+        <!--            android:exported="true"-->
+        <!--            android:process=":remote">-->
+        <!--            <intent-filter>-->
+        <!--                <action android:name="android.intent.action.BOOT_COMPLETED" />-->
+        <!--            </intent-filter>-->
+        <!--        </receiver>-->
+    </application>
+
+</manifest>
